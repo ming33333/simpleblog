@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/simpleblog/static/css/main.87262428.css",
-    "main.js": "/simpleblog/static/js/main.d17b27f7.js",
+    "main.js": "/simpleblog/static/js/main.91251032.js",
     "static/js/453.858c9209.chunk.js": "/simpleblog/static/js/453.858c9209.chunk.js",
     "index.html": "/simpleblog/index.html",
     "main.87262428.css.map": "/simpleblog/static/css/main.87262428.css.map",
-    "main.d17b27f7.js.map": "/simpleblog/static/js/main.d17b27f7.js.map",
+    "main.91251032.js.map": "/simpleblog/static/js/main.91251032.js.map",
     "453.858c9209.chunk.js.map": "/simpleblog/static/js/453.858c9209.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87262428.css",
-    "static/js/main.d17b27f7.js"
+    "static/js/main.91251032.js"
   ]
 }
