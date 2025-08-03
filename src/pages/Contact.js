@@ -8,8 +8,8 @@ const Contact = () => {
             
             <h2>Email</h2>
             <ul>
-                <li>Ming: ming@jermingo.fake</li>
-                <li>Jermiaine: jermiaine@jermingo.fake</li>
+                <li>Ming: ming@jermingo.com</li>
+                <li>Jermaine: jermaine@jermingo.com</li>
             </ul>
             
             <h2>Socials</h2>

@@ -34,7 +34,7 @@ const Header = () => {
       <div className="header-container">
         <div className="header-title">
           <img 
-            src="/simpleblog/images/travel.jpeg" 
+            src="/simpleblog/images/animals/travel.jpeg" 
             alt="Travel" 
             className="header-travel-photo" 
             style={{ verticalAlign: 'middle', height: '8em' }} 
