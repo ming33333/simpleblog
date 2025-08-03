@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './styles/Global.css';
+import BlogDetails from './components/BlogDetails';
+import Header from './components/Header';
+
+// Dynamically import all components from the pages folder
+const pages = {};
+const context = require.context('./pages', false, /\.js$/);
+
+context.keys().forEach((key) => {
+  const componentName = key.replace('./', '').replace('.js', '');
+  pages[componentName] = context(key).default;
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+          <Header />
+          <Routes>
+            <Route path="/blogWriting" element={ <pages.BlogWriting/>}/>
+            <Route path="/home" element={ <pages.Home/>}/>
+            <Route path="/about" element={ <pages.About/>}/>
+            <Route path="/contact" element={ <pages.Contact/>}/>
+            <Route path="/blog/:url" element={<BlogDetails />} /> 
+        </Routes>
+    </Router>
   );
 }
 

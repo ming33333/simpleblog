@@ -1,0 +1,57 @@
+/* Header.css */
+
+/* Style the header container */
+.app-header {
+    background-color: #fcf7f1; /* Light grey background */
+    padding: 1rem 0; /* Add spacing around the header */
+    border-bottom: 1px solid black; /* Thin black border at the bottom */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; /* Allows centering the nav-bar */
+  }
+
+/* Ensure the header container spans the full width and height */
+.header-container {
+  display: flex; /* Use Flexbox for layout */
+  align-items: center; /* Vertically center the content */
+  justify-content: space-between; /* Space between the title and nav-bar */
+  width: 100%; /* Full width */
+  padding: 0 2rem; /* Add padding for spacing */
+  position: relative; /* Allow absolute positioning for nav-bar */
+}
+
+/* Title styling */
+.header-title {
+  margin: 0; /* Remove default margin */
+}
+
+.header-title h1 {
+  color: #333; /* Dark grey for the title */
+  margin: 0;
+  text-align: left; /* Align text to the left */
+  font-size: 3em; /* Larger font size for the title */
+}
+
+/* Style the navigation bar */
+.nav-bar {
+  position: absolute; /* Position the nav-bar absolutely */
+  left: 50%; /* Move the nav-bar to the horizontal center */
+  transform: translateX(-50%); /* Adjust for the nav-bar's width */
+  display: flex; /* Use Flexbox for alignment */
+  justify-content: center; /* Horizontally center the links */
+  align-items: center; /* Vertically center the links */
+  gap: 3rem; /* Add spacing between the links */
+}
+
+/* Style the navigation links */
+.nav-link {
+  font-size: 20px; /* Set font size to 20px */
+  color: #010101; /* Dark grey color for the text */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  color: #6c63ff; /* Change color on hover */
+}

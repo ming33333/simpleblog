@@ -1,0 +1,14 @@
+{
+    "/home": {
+      "title": "Home",
+      "file": "home.json"
+    },
+    "/about": {
+      "title": "About",
+      "file": "about.json"
+    },
+    "/contact": {
+      "title": "Contact",
+      "file": "contact.json"
+    }
+  }
