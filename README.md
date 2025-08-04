@@ -1,5 +1,5 @@
 ## Notes 
-github pages should auto launch when running npm run deploysince we are on main branch? (launched aug 3 1:30om)
+github pages should auto launch when running npm run deploy since we are on main branch
 
 ## Reference
 

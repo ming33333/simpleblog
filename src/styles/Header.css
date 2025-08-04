@@ -1,57 +1,66 @@
-/* Header.css */
-
-/* Style the header container */
-.app-header {
-    background-color: #fcf7f1; /* Light grey background */
-    padding: 1rem 0; /* Add spacing around the header */
-    border-bottom: 1px solid black; /* Thin black border at the bottom */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative; /* Allows centering the nav-bar */
-  }
-
-/* Ensure the header container spans the full width and height */
+/* Header container */
 .header-container {
-  display: flex; /* Use Flexbox for layout */
-  align-items: center; /* Vertically center the content */
-  justify-content: space-between; /* Space between the title and nav-bar */
-  width: 100%; /* Full width */
-  padding: 0 2rem; /* Add padding for spacing */
-  position: relative; /* Allow absolute positioning for nav-bar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
-/* Title styling */
+/* Travel photo */
+.header-travel-photo {
+  height: 8em;
+  border-radius: 10%; /* Optional: Make the image circular */
+  margin-right: 1rem;
+}
+
+/* Header title */
 .header-title {
-  margin: 0; /* Remove default margin */
-}
-
-.header-title h1 {
-  color: #333; /* Dark grey for the title */
+  font-size: 2rem;
+  font-weight: bold;
   margin: 0;
-  text-align: left; /* Align text to the left */
-  font-size: 3em; /* Larger font size for the title */
+  text-align: center;
 }
 
-/* Style the navigation bar */
+/* Navigation bar */
 .nav-bar {
-  position: absolute; /* Position the nav-bar absolutely */
-  left: 50%; /* Move the nav-bar to the horizontal center */
-  transform: translateX(-50%); /* Adjust for the nav-bar's width */
-  display: flex; /* Use Flexbox for alignment */
-  justify-content: center; /* Horizontally center the links */
-  align-items: center; /* Vertically center the links */
-  gap: 3rem; /* Add spacing between the links */
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Style the navigation links */
+/* Navigation links */
 .nav-link {
-  font-size: 20px; /* Set font size to 20px */
-  color: #010101; /* Dark grey color for the text */
-  text-decoration: none; /* Remove underline from links */
-  transition: color 0.3s ease; /* Smooth transition for hover effect */
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #6c63ff; /* Change color on hover */
+  color: #6c63ff;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .header-travel-photo {
+    margin-right: 0; /* Remove margin for stacked layout */
+    margin-bottom: 1rem; /* Add spacing below the image */
+  }
+
+  .header-title {
+    font-size: 1.8rem; /* Adjust font size for smaller screens */
+    margin-bottom: 1rem; /* Add spacing below the title */
+  }
+
+  .nav-bar {
+    flex-direction: column; /* Stack navigation links vertically */
+    gap: 0.5rem; /* Reduce spacing between links */
+  }
 }

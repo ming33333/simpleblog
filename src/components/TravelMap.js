@@ -160,13 +160,20 @@ export default function TravelMap() {
       layers: [pointLayer, textLayer, pathLayer],
     });
   }, [visibleTrips, animationProgress]);
-
   useEffect(() => {
-    // Animate the progress for smoother effects
-    const animationInterval = setInterval(() => {
-      setAnimationProgress((prev) => (prev + 1) % 1000);
+    let animationInterval = setInterval(() => {
+      setAnimationProgress((prev) => {
+        const nextValue = (prev + 1) % 1000; // Loop the animation
+        console.log('Animation Progress:', nextValue); // Debugging
+        return nextValue;
+      });
     }, 50); // Adjust the speed of the animation
-    return () => clearInterval(animationInterval);
+  
+    // Cleanup function to clear the interval
+    return () => {
+      console.log('Clearing interval');
+      clearInterval(animationInterval);
+    };
   }, []);
 
   return (

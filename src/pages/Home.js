@@ -17,7 +17,6 @@ const Home = () => {
             <BlogCard
               title={blog.title}
               excerpt={blog.excerpt}
-              image={blog.image}
             />
           </Link>
         ))}

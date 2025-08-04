@@ -32,18 +32,13 @@ const Header = () => {
   return (
     <header className="app-header">
       <div className="header-container">
-        <div className="header-title">
-          <img 
-            src="/simpleblog/images/animals/travel.jpeg" 
-            alt="Travel" 
-            className="header-travel-photo" 
-            style={{ verticalAlign: 'middle', height: '8em' }} 
-          />
-          <h1 style={{ display: 'inline', marginRight: '10px' }}> Jermingo</h1>
-        </div>
-        {/* The main navigation bar */}
+        <img 
+          src="/simpleblog/images/animals/travel.jpeg" 
+          alt="Travel" 
+          className="header-travel-photo" 
+        />
+        <h1 className="header-title">Jermingo</h1>
         <nav className="nav-bar" aria-label="Main Navigation">
-          {/* Dynamically generating navigation links from the config.json file */}
           {Object.keys(config).map((path) => (
             <Link key={path} to={path} className="nav-link">
               {config[path].title}
