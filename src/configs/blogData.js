@@ -1,6 +1,7 @@
   const blogs = [
     {
       "title": "Why Taking Time Off Is Essential for Your Health",
+      "date": "2025-07-15", // Added date
       "excerpt": "Learn how regular breaks from work and daily routines improve your mental, physical, and emotional well-being.",
       "url": "taking-time-off-benefits",
       "img": "taking-time-off-benefits.jpg",
@@ -8,6 +9,7 @@
     },
     {
       "title": "Why Everyone Should Travel the World at Least Once",
+      "date": "2025-06-20", // Added date
       "excerpt": "Exploring different countries isn't just fun\u2014it's life-changing. Here's why traveling the world expands your mind and opens your heart.",
       "url": "why-travel-the-world",
       "img": "why-travel-the-world.jpg",
@@ -15,6 +17,7 @@
     },
     {
       "title": "How Budgeting Makes Travel More Enjoyable and Sustainable",
+      "date": "2025-05-10", // Added date
       "excerpt": "Smart planning doesn't restrict your trip\u2014it empowers it. Here's how to travel far without breaking the bank.",
       "url": "budgeting-for-travel",
       "img": "budgeting-for-travel.jpeg",
@@ -23,12 +26,14 @@
     {
       "title": "Staying Safe While Traveling: Tips Every Explorer Should Know",
       "excerpt": "Traveling can be thrilling, but it also comes with risks. These safety tips will help you protect yourself and enjoy worry-free adventures.",
+      "date": "2025-04-05", // Added date
       "url": "travel-safety-tips",
       "img": "travel-safety-tips.jpg",
       "body": "Traveling is an exciting opportunity to explore new cultures and experiences. But with every adventure comes the responsibility of staying safe. A little preparation can help you enjoy your trip without unnecessary risks.\n\nStart with research. Before traveling to any destination, understand the local customs, laws, political climate, and common scams. Government travel advisories are helpful resources.\n\nKeep digital and physical copies of your passport, ID, and travel documents. Store them in separate places\u2014in your luggage and cloud storage. Be mindful of your belongings, especially in crowded areas. Pickpocketing is common in popular tourist spots.\n\nDon\u2019t flash valuables. Keep a low profile when it comes to money, jewelry, and electronics. Dress modestly in conservative regions and follow cultural norms to avoid drawing negative attention.\n\nHealth is another concern. Carry a basic first-aid kit and any personal medications. Research nearby hospitals and make sure your travel insurance covers emergencies.\n\nLastly, trust your instincts. If something feels off, don\u2019t ignore it. Your safety always comes first. Stay alert, stay informed, and your travel experience will be safer and more enjoyable."
     },
     {
       "title": "How to Choose the Perfect Travel Destination",
+      "date": "2024-12-25", // Added date
       "excerpt": "With so many beautiful places to go, how do you choose? Use this guide to plan a trip that fits your goals, budget, and interests.",
       "url": "choosing-travel-destination",
       "img": "choosing-travel-destination.jpg",
@@ -36,6 +41,7 @@
     },
     {
       "title": "What Travel Teaches You About Life",
+      "date": "2025-03-05",
       "excerpt": "Travel isn't just about photos and food\u2014it's about growth. Discover the life-changing lessons you gain through exploration.",
       "url": "lessons-from-travel",
       "img": "lessons-from-travel.jpg",
@@ -43,6 +49,7 @@
     },
     {
       "title": "Why You Should Unplug During Your Travels",
+      "date": "2025-04-25",
       "excerpt": "Ditch the Wi-Fi and reconnect with the real world. A digital detox while traveling can refresh your mind and deepen your experience.",
       "url": "digital-detox-travel",
       "img": "digital-detox-travel.jpeg",
@@ -51,12 +58,14 @@
     {
       "title": "Solo Travel or Group Travel? Pros and Cons to Know",
       "excerpt": "Not all trips are created equal. Find out whether traveling alone or with others suits your style and goals.",
+      "date": "2025-06-05",
       "url": "solo-vs-group-travel",
       "img": "solo-vs-group-travel.jpeg",
       "body": "Solo travel offers unmatched freedom. You go where you want, when you want, and follow your own rhythm. It's ideal for self-discovery, building confidence, and creating a personal journey.\n\nGroup travel, on the other hand, provides shared memories, safety, and convenience. It\u2019s great for social connections and often comes with built-in plans and guides.\n\nSolo travel can be lonely at times and may require more logistical effort. Group travel can limit your spontaneity or involve compromises.\n\nThe choice depends on your goals. If you want independence and reflection, go solo. If you seek companionship and structure, travel with others. Both offer unique benefits\u2014choose what aligns with your vision for the trip."
     },
     {
       "title": "Tasting the World: How Food Deepens Your Travel Experience",
+      "date": "2025-08-05",
       "excerpt": "Food isn\u2019t just fuel\u2014it\u2019s a cultural conversation. Here\u2019s how to appreciate the world through its flavors.",
       "url": "food-and-travel",
       "img": "food-and-travel.webp",
@@ -64,6 +73,7 @@
     },
     {
       "title": "Packing Like a Pro: Essentials for Every Trip",
+      "date": "2025-01-15",
       "excerpt": "Avoid overpacking and under-preparing. Here\u2019s how to build the ultimate travel packing list.",
       "url": "smart-packing-guide",
       "img": "smart-packing-guide.jpeg",

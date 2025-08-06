@@ -19,12 +19,13 @@ import React from 'react';
  *   image="/assets/images/mindfulness.jpg"
  * />
  */
-const BlogCard = ({ title, excerpt, image }) => {
+const BlogCard = ({ title, excerpt, image, date }) => {
   return (
     <div className="blog-card">
       {/* <img src={image} alt={title} className="blog-card-image" /> */}
       <div className="blog-card-content">
         <h2 className="blog-card-title">{title}</h2>
+        <p><strong>Published:</strong> {date}</p>
         <p className="blog-card-excerpt">{excerpt}</p>
       </div>
     </div>

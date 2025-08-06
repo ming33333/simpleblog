@@ -35,9 +35,9 @@
   .blog-body-container {
     padding: 20px;
     margin: 20px 0;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color: #fcf7f1;
   }
   
   .blog-body {
