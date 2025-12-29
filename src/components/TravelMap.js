@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { GoogleMapsOverlay } from '@deck.gl/google-maps';
 import { ScatterplotLayer, TextLayer, PathLayer } from '@deck.gl/layers';
 import travelData from '../configs/travelData';
-import customMapStyle from '../configs/customMap.json';
+import customMapStyle from '../configs/customMapData.json';
 
 const GOOGLE_MAPS_API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY; // Replace with your Google Maps API key
 
@@ -164,7 +164,6 @@ export default function TravelMap() {
     let animationInterval = setInterval(() => {
       setAnimationProgress((prev) => {
         const nextValue = (prev + 1) % 1000; // Loop the animation
-        console.log('Animation Progress:', nextValue); // Debugging
         return nextValue;
       });
     }, 50); // Adjust the speed of the animation

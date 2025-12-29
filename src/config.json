@@ -10,5 +10,9 @@
     "/contact": {
       "title": "Contact",
       "file": "contact.json"
+    },
+    "/privacy": {
+      "title": "Privacy Policy",
+      "file": "privacy.json"
     }
   }

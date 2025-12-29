@@ -10,13 +10,13 @@ const BlogDetails = () => {
   if (!blog) {
     return <h1>Blog not found</h1>; // Handle invalid blog IDs
   }
-
+  const imageSrc = `/images/blog/${blog.img}` 
   return (
     <div className="blog-details-container">
       <h1 className="blog-title">{blog.title}</h1>
       <div className="blog-image-container">
         <img 
-          src={`/simpleblog/images/blog/${blog.img}`}
+          src={imageSrc}
           alt={blog.title}
           className="blog-image"
         />

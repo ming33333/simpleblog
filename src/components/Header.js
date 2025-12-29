@@ -29,11 +29,12 @@ import '../styles/Header.css';
  * }
  */
 const Header = () => {
+  const imageSrc = `/images/animals/travel.jpeg` 
   return (
     <header className="app-header">
       <div className="header-container">
         <img 
-          src="/simpleblog/images/animals/travel.jpeg" 
+          src={imageSrc} 
           alt="Travel" 
           className="header-travel-photo" 
         />

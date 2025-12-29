@@ -1,17 +1,18 @@
 import React from 'react';
 
 const About = () => {
+    const imageSrc = `/images/jermingo/` 
     return (
         <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif', lineHeight: '1.6' }}>
             <h1>About Us</h1>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem' }}>
                 <img 
-                    src="/simpleblog/images/jermingo/ming.jpg" 
+                    src={`${imageSrc}ming.jpg`} 
                     alt="Jermingo" 
                     style={{ height: '20em' }} 
                 />
                 <img 
-                    src="/simpleblog/images/jermingo/jermaine.jpg" 
+                    src={`${imageSrc}jermaine.jpg`} 
                     alt="Jermingo" 
                     style={{ height: '20em' }} 
                 />
