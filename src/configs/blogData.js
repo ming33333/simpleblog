@@ -81,4 +81,4 @@
     }
   ]
 
-export default blogs;
+  export default blogs;

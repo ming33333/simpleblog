@@ -61,7 +61,7 @@ File: Header.js
 
 # React src folder setup
 
-- Appp.py root component of your React application. It acts as the entry point for your app's logic and structure.
+- App.py root component of your React application. It acts as the entry point for your app's logic and structure.
 Rendering the ContentRenderer component.
 Using React Router (Routes and Route) to define paths and render content dynamically.
 Fetching JSON files based on the current route.
@@ -186,6 +186,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Tasks
 - Ads
+  - ~~all required pages~~
   - app performance
   - routes work independently 
   - 10 pages with 500-1000 words content
@@ -196,3 +197,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
   - addsense id searchable in code
   - whatever issue addsense returned in my submission
   - Proper Robots.txt Setup
+- test 
+ - test to ensure crawlers can find pages, could for SEO
+ - generate-sitemaps.js need to be run every time for new pages,  create script auto update with deployment
