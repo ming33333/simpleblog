@@ -183,3 +183,16 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### Tasks
+- Ads
+  - app performance
+  - routes work independently 
+  - 10 pages with 500-1000 words content
+  - ...etc?
+  - ssl certification
+  - X-Content-Type-Options
+  - Content Security Policy (CSP)
+  - addsense id searchable in code
+  - whatever issue addsense returned in my submission
+  - Proper Robots.txt Setup

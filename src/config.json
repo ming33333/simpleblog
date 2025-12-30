@@ -14,5 +14,17 @@
     "/privacy": {
       "title": "Privacy Policy",
       "file": "privacy.json"
+    },
+    "/cookies": {
+      "title": "Cookies",
+      "file": "privacy.json"
+    },
+    "/terms": {
+      "title": "Terms and Conditions",
+      "file": "privacy.json"
+    },
+    "/sitemap": {
+      "title": "Site Map",
+      "file": "privacy.json"
     }
   }

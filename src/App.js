@@ -25,6 +25,9 @@ function App() {
             <Route path="/contact" element={ <pages.Contact/>}/>
             <Route path="/blog/:url" element={<BlogDetails />} /> 
             <Route path="/privacy" element={ <pages.PrivacyPolicy/>}/>
+            <Route path="/cookies" element={ <pages.Cookies/>}/>
+            <Route path="/terms" element={ <pages.TermsAndConditions/>}/>
+            <Route path="/sitemap" element={ <pages.SiteMap/>}/>
         </Routes>
     </Router>
   );
